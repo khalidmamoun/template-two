@@ -827,6 +827,13 @@ header nav .form i {
   justify-content: center;
 }
 
+@media (max-width:600px) {
+  .events .info .time {
+    display: grid;
+    grid-template-columns:repeat(auto-fill, minmax(100px ,1fr));
+  }
+}
+
 .events .info .time .unit {
   border: 1px solid #d4d4d4;
   border-radius: 6px;
