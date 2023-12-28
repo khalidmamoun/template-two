@@ -1405,48 +1405,55 @@ header nav .form i {
   max-width: 100%;
 }
 /* End Discount */
- /* start contact */
-.contact {
-  padding-top: 60px;
-  padding-bottom: 60px;
-  background-color: #ecedecab;
-  text-align: center;
-}
-.contact p {
-  font-weight: 800;
-  font-size: 28px;
-  color:rgba(155, 62, 59, 0.952);
-}
 
-.contact .link {
-  display: block;
-  margin-bottom: 13px;
-  text-decoration: none;
-  font-size: 26px;
-  font-weight: 700;
-  color: rgb(0, 0, 0);
-}
-
-@media (max-width:  767px) {
-  .contact p {
-    font-size: 20px;
+/* start contact */
+  .contact {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    background-color: #ecedecab;
+    text-align: center;
   }
-}
-.contact .social {
-  color: rgb(0, 45, 245);
-  margin-top: 20px;
-  font-size: 15px;
-  font-weight: 700;
-}
+  .contact p {
+    font-weight: 800;
+    font-size: 28px;
+    color:black;
+    margin-bottom: 10px;
+  }
+  .contact .link {
+    display: block;
+    margin-bottom: 13px;
+    text-decoration: none;
+    font-size: 26px;
+    font-weight: bold;
+    color: black;
+  }
+  .contact .link:hover {
+    color: var(--main-color);
+  }
+  @media (max-width:  767px) {
+    .contact p {
+      font-size: 17px;
+    }
+    .contact .link {
+      font-size: 20px;
+    }
+  }
+  .contact .social .media {
+    color: #777;
+    margin: 22px 0;
+    font-size: 15px;
+    font-weight: 700;
+  }
+  
+  .contact .social i {
+    color: rgb(0, 0, 0);
+    margin-left: 5px;
+    font-size: 25px;
+    cursor: pointer;
+  }
+ /* end contact */
 
-.contact .social i {
-  color: rgb(0, 0, 0);
-  margin-left: 5px;
-  font-size: 25px;
-}
-  /* end contact */
-
-  /* <!-- start footer --> */
+/* <!-- start footer --> */
 .footer {
   background-image: url(/image/copy.avif);
   height: 10vh;
@@ -1471,6 +1478,7 @@ header nav .form i {
 }
 
 /* <!-- end footer --> */
+
 /* Start Animation */
 
 @keyframes up-and-down {
