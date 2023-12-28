@@ -1394,175 +1394,83 @@ header nav .form i {
     width: 100%;
   }
 }
-
 @media (min-width: 768px) {
   .discount .content p {
     max-width: 800px;
     width: 100%;
   }
 }
-
 .discount .content img {
   width: 300px;
   max-width: 100%;
 }
-
 /* End Discount */
-
-/* Start Footer */
-.footer {
-  background-color: #191919;
-  padding: 70px 0 0;
+ /* start contact */
+.contact {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  background-color: #ecedecab;
   text-align: center;
 }
-
-@media (max-width: 990px) {
-  .footer {
-    width: 100%;
-  }
+.contact p {
+  font-weight: 800;
+  font-size: 28px;
+  color:rgba(155, 62, 59, 0.952);
 }
 
-.footer .container {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
-  gap: 40px;
-}
-
-.footer .box h3 {
-  color: white;
-  font-size: 50px;
-  margin: 0 0 20px;
-}
-
-.footer .box .social {
-  display: flex;
-  margin-left: 70px;
-}
-
-@media (max-width: 991px) {
-  .footer .box .social {
-    justify-content: center;
-  }
-}
-
-.footer .box .social li {
-  margin: 10px;
-}
-
-.footer .box .social li a {
-  background-color: #313131;
-  color: #b9b9b9;
-  display: inline-flex;
-  justify-content: center;
-  align-items: center;
-  width: 50px;
-  height: 50px;
-  font-size: 20px;
-  transition: var(--main-transition);
-}
-
-.footer .box .social .facebook:hover {
-  background-color: #1877f2;
-}
-
-.footer .box .social .twitter:hover {
-  background-color: #1da1f2;
-}
-
-.footer .box .social .youtube:hover {
-  background-color: #ff0000;
-}
-
-.footer .box .text {
-  line-height: 2;
-  color: #b9b9b9;
-}
-
-.footer .box .links li {
-  padding: 15px 0;
-  transition: var(--main-transition);
-}
-
-.footer .box .links li:not(:last-child) {
-  border-bottom: 1px solid #444;
-}
-
-.footer .box .links li:hover {
-  padding-left: 10px;
-}
-
-.footer .box .links li:hover a {
-  color: white;
-}
-
-.footer .box .links li a {
-  color: #b9b9b9;
-  transition: var(--main-transition);
-}
-
-.footer .box .links li a::before {
-  font-family: "Font Awesome 5 Free";
-  content: "\F101";
-  font-weight: 900;
-  margin-right: 10px;
-  color: var(--main-color);
-}
-
-.footer .box .line {
-  display: flex;
-  align-items: center;
-  color: #b9b9b9;
-  margin-bottom: 30px;
-}
-
-@media (max-width: 767px) {
-  .footer .box .line {
-    flex-direction: column;
-  }
-}
-
-.footer .box .line i {
-  font-size: 25px;
-  color: var(--main-color);
-  margin-right: 10px;
-}
-
-@media (max-width: 767px) {
-  .footer .box .line i {
-    margin-right: 0;
-    margin-bottom: 15px;
-  }
-}
-
-.footer .box .line .info {
-  line-height: 1.7;
-  flex: 1;
-}
-
-.footer .box .line .info span {
+.contact .link {
   display: block;
+  margin-bottom: 13px;
+  text-decoration: none;
+  font-size: 26px;
+  font-weight: 700;
+  color: rgb(0, 0, 0);
 }
 
-.footer .footer-gallery img {
-  width: 78px;
-  border: 3px solid white;
-  margin: 2px;
+@media (max-width:  767px) {
+  .contact p {
+    font-size: 20px;
+  }
+}
+.contact .social {
+  color: rgb(0, 45, 245);
+  margin-top: 20px;
+  font-size: 15px;
+  font-weight: 700;
 }
 
-.footer .copyright {
-  padding: 25px 0;
+.contact .social i {
+  color: rgb(0, 0, 0);
+  margin-left: 5px;
+  font-size: 25px;
+}
+  /* end contact */
+
+  /* <!-- start footer --> */
+.footer {
+  background-image: url(/image/copy.avif);
+  height: 10vh;
+  background-size: cover;
+  background-attachment: fixed;
+  background-blend-mode: overlay;
+  background-color: rgba(0, 0, 0, .6);
   text-align: center;
+  padding: 50px;
   color: white;
-  margin: 50px 0 0;
-  border-top: 1px solid #444;
+  font-weight: 500;
 }
 
 .footer span {
-  color: var(--main-color);
+  color: rgba(155, 62, 59, 0.952);
 }
 
-/* End Footer */
+@media (max-width:  767px) {
+  .footer {
+    font-size: 15px;
+  }
+}
 
+/* <!-- end footer --> */
 /* Start Animation */
 
 @keyframes up-and-down {
@@ -1689,31 +1597,4 @@ header nav .form i {
 
 /* end scroll */
 
-/*start up */
-.up {
-  position: fixed;
-  bottom: 0px;
-  right: 20px;
-  background-color: rgba(0, 102, 255, 0.39);
-  border-radius: 10px 10px 0px 0px;
-  width: 23px;
-  height: 40px;
-  justify-content: center;
-  display: flex;
-  align-items: center;
-  transition: ease 0.1s;
-  z-index: 100;
-}
 
-.up i {
-  color: black;
-  font-size: 30px;
-  margin-top: 10px;
-}
-
-.up:hover {
-  background-color: rgba(218, 165, 32, 0.473);
-  height: 50px;
-}
-
-/*End up */
