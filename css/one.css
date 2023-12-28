@@ -1468,7 +1468,7 @@ header nav .form i {
 }
 
 .footer span {
-  color: rgba(155, 62, 59, 0.952);
+    color: var(--main-color);
 }
 
 @media (max-width:  767px) {
